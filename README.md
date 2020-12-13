@@ -7,4 +7,3 @@ A comprehensive collection of Gnuplot examples
 ## Line Charts
 
 ## More Chart Types
-
