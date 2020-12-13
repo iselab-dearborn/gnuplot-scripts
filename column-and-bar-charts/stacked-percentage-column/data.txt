@@ -1,0 +1,4 @@
+inst foo bar rest
+inst1 20 70 10
+inst2 20 30 10
+inst3 20 10 10

@@ -1,0 +1,5 @@
+metric1 metric2 metric3 metric4 metric5
+1 3 0.5 2 9
+2 6 -0.2 6 3
+3 2 0.1 9 2
+8 1 0.2 1 5
