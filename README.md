@@ -18,6 +18,18 @@ A comprehensive collection of Gnuplot examples
     </kbd>
 </div>
 
+### Scatter and Bubble Charts
+
+#### Scatter Plot
+
+<div >
+    <kbd>
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/scatter-plot">
+            <img src="https://user-images.githubusercontent.com/114015/102025404-bace3700-3d65-11eb-9923-dfd516143817.png"/>
+        </a>
+    </kbd>
+</div>
+
 ### Column and Bar Charts
 
 #### Basic Bar
