@@ -1,4 +1,4 @@
-# Gnuplot Scripts
+<img src="https://user-images.githubusercontent.com/114015/102027228-b3605b00-3d70-11eb-9e3a-0d6f499e9c0b.png" width="300px"/>
 
 A comprehensive collection of Gnuplot examples
 
