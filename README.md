@@ -56,6 +56,15 @@ A comprehensive collection of Gnuplot examples
     </kbd>
 </div>
 
+#### Stacked Percentage Column
+<div >
+    <kbd>
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/column-and-bar-charts/stacked-percentage-column">
+            <img src="https://user-images.githubusercontent.com/114015/102025101-adb04880-3d63-11eb-80a6-6e1e73c42813.png"/>
+        </a>
+    </kbd>
+</div>
+
 ### More Chart Types
 
 #### Spiderweb
