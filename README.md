@@ -4,7 +4,7 @@ A comprehensive collection of Gnuplot examples
 
 ## Usage
 
-Install <a href="http://www.gnuplot.info">Gnuplot</a> on your machine and run by using Console the following script:
+Firstly, install <a href="http://www.gnuplot.info">Gnuplot</a> on your machine. Secondly, by using Console, run the gnuplot script with the following command:
 
 ```sh
 gnuplot script.gnu
