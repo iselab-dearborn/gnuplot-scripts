@@ -20,14 +20,24 @@ gnuplot script.gnu
 
 Click in the figures to go directly to the gnuplot script.
 
-### Line Charts
+### Line and Area Charts
 
 #### Basic Line
 
 <div >
     <kbd>
-        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/line-charts/basic-line">
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/line-and-area-charts/basic-line">
             <img src="https://user-images.githubusercontent.com/114015/102024554-bd7a5d80-3d60-11eb-8959-c6bff721ef47.png"/>
+        </a>
+    </kbd>
+</div>
+
+#### Area Plot
+
+<div >
+    <kbd>
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/line-and-area-charts/area-plot">
+            <img src="https://user-images.githubusercontent.com/114015/102027865-e7d61600-3d74-11eb-9474-6ec91512fba0.png"/>
         </a>
     </kbd>
 </div>
