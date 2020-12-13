@@ -34,7 +34,7 @@ A comprehensive collection of Gnuplot examples
 
 <div >
     <kbd>
-        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/scatter-plot">
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart">
             <img src="https://user-images.githubusercontent.com/114015/102026526-5f537780-3d6c-11eb-9250-043e3c149dce.png"/>
         </a>
     </kbd>
@@ -44,7 +44,7 @@ A comprehensive collection of Gnuplot examples
 
 <div >
     <kbd>
-        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/scatter-plot">
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart-3d">
             <img src="https://user-images.githubusercontent.com/114015/102026524-5ebae100-3d6c-11eb-87d8-014c4054c5d5.png"/>
         </a>
     </kbd>
