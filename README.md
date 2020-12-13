@@ -40,7 +40,7 @@ Contributions to the this project are very welcome! We can't do this alone! Feel
 
 ## Authors
 
-* **Anwar Ghammam** - *Initial work*
+* **Thiago Ferreira** - *Initial work*
 
 See also the list of [contributors](https://github.com/iselab-dearborn/gnuplot-scripts/graphs/contributors) who participated in this project.
 
