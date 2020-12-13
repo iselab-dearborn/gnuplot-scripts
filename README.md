@@ -2,9 +2,13 @@
 
 A comprehensive collection of Gnuplot examples
 
-## Line Charts
+## Usage
 
-### Basic Line
+## Types
+
+### Line Charts
+
+#### Basic Line
 
 <div >
     <kbd>
