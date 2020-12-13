@@ -6,7 +6,12 @@ A comprehensive collection of Gnuplot examples
 
 ### Basic Line
 
-![basic-line](https://user-images.githubusercontent.com/114015/102024554-bd7a5d80-3d60-11eb-8959-c6bff721ef47.png)
+<div >
+    <kbd>
+    <img src="https://user-images.githubusercontent.com/114015/102024554-bd7a5d80-3d60-11eb-8959-c6bff721ef47.png"/>
+    </kbd>
+</div>
+    
 
 ## Column and Bar Charts
 
