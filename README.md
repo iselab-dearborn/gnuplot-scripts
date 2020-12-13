@@ -4,7 +4,15 @@ A comprehensive collection of Gnuplot examples
 
 ## Usage
 
+Install <a href="http://www.gnuplot.info">Gnuplot</a> on your machine and run by using Console the following script:
+
+```sh
+gnuplot script.gnu
+```
+
 ## Examples
+
+Click in the figures to go directly to the gnuplot script.
 
 ### Line Charts
 
