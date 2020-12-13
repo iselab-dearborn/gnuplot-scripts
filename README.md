@@ -2,6 +2,12 @@
 
 A comprehensive collection of Gnuplot examples
 
+[![GitHub Release](https://img.shields.io/github/release/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts/releases/latest)
+[![GitHub contributors](https://img.shields.io/github/contributors/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts/graphs/contributors)
+[![GitHub stars](https://img.shields.io/github/stars/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts)
+[![MIT Licence](https://badges.frapsoft.com/os/mit/mit.svg?v=103)](https://opensource.org/licenses/mit-license.php)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/)
+
 ## Usage
 
 Firstly, install <a href="http://www.gnuplot.info">Gnuplot</a> on your machine. Secondly, by using Console, run the gnuplot script with the following command:
