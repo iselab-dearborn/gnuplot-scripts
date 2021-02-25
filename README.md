@@ -127,7 +127,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/more-chart-types/spiderweb">
-            <img src="https://user-images.githubusercontent.com/114015/102024561-c0754e00-3d60-11eb-9059-239e0086b942.png"/>
+            <img src="https://iselab-dearborn.github.io/gnuplot-scripts/spiderweb/spiderweb.png"/>
         </a>
     </kbd>
 </div>
