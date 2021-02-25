@@ -6,8 +6,8 @@ set output "spiderweb.pdf"
 set key top left
 
 set spiderplot
-set style spiderplot linewidth 3.000 dashtype solid pointtype 1 pointsize default
-set style spiderplot fillstyle transparent solid 0.2 border
+set style spiderplot linewidth 2 dashtype solid pointtype 1 pointsize default
+set style spiderplot fillstyle transparent solid 0.1
 set size ratio 1 1,1
 set style data spiderplot
 
@@ -31,9 +31,17 @@ set zrange [ * : * ] noreverse writeback
 set cbrange [ * : * ] noreverse writeback
 set rrange [ * : * ] noreverse writeback
 
+COLOR_1="#9E77A1"
+COLOR_2="#9A8FBB"
+COLOR_3="#8AA9C0"
+COLOR_4="#7BC1BF"
+COLOR_5="#7ED9B1"
+COLOR_6="#B2ED90"
+COLOR_7="#FDF57A"
+
 set paxis 1 range [ 0 : 10 ]  noextend
 set paxis 1 label "metric1" 
-set paxis 1 label  textcolor lt -1 norotate 
+set paxis 1 label  textcolor lt -1 norotate  fillstyle transparent
 
 set paxis 2 range [ 0 : 10 ]  noextend
 set paxis 2 label "metric2" 
@@ -56,25 +64,17 @@ set rmargin 6;
 set tmargin 3;
 set bmargin 0;
 
-set for [i=1:5] paxis i tics font ',9'
+set for [i=1:5] paxis i tics
 
 set datafile separator " "
 
 set grid spider linetype black linecolor "grey" linewidth 0.5 back
 
-COLOR_1="#9E77A1"
-COLOR_2="#9A8FBB"
-COLOR_3="#8AA9C0"
-COLOR_4="#7BC1BF"
-COLOR_5="#7ED9B1"
-COLOR_6="#B2ED90"
-COLOR_7="#FDF57A"
-
 plot  for [i=1:5] "data.txt" using i title columnhead, \
-    keyentry with spiderplot linecolor rgb COLOR_1 linewidth 1 title "Alg1", \
-    keyentry with spiderplot linecolor rgb COLOR_2 linewidth 1 title "Alg2", \
-    keyentry with spiderplot linecolor rgb COLOR_3 linewidth 1 title "Alg3", \
-    keyentry with spiderplot linecolor rgb COLOR_4 linewidth 1 title "Alg4", \
+    keyentry with spiderplot linecolor 1 linewidth 1 title "Alg1", \
+    keyentry with spiderplot linecolor 2 linewidth 1 title "Alg2", \
+    keyentry with spiderplot linecolor 3 linewidth 1 title "Alg3", \
+    keyentry with spiderplot linecolor 4 linewidth 1 title "Alg4", \
 
 # Generate automatically the same figure in .png format 
 # 8in == 768px and 4in == 384px
