@@ -1,5 +1,4 @@
 set terminal pdfcairo enhanced dashed size 8, 4;
-
 set output "box-plot.pdf"
 
 set title "Title"
@@ -12,18 +11,51 @@ set pointsize 0.5
 
 unset key
 set border 2
-set xtics ("Alg1" 1, "Alg2" 2, "Alg3" 3) scale 0.0
-set ytics 0.2
+
+set xtics scale 0.0
+set xtics ( \
+    "Alg1" 1, \
+    "Alg2" 2, \
+    "Alg3" 3, \
+    "Alg4" 4, \
+    "Alg5" 5, \
+    "Alg6" 6, \
+    "Alg7" 7, \
+) 
+
+set lmargin 8
+set rmargin 2
+set tmargin 2
+set bmargin 2
+
 set ylabel "Y Label"
-set yrange [-1.6:1.6]
+set ytics 0.1
+set yrange [0:1]
 
 set datafile separator " "
 set grid
 
-COLOR_2="#9E77A1"
-COLOR_3="#9A8FBB"
-COLOR_4="#8AA9C0"
+COLOR_1="#9E77A1"
+COLOR_2="#9A8FBB"
+COLOR_3="#8AA9C0"
+COLOR_4="#7BC1BF"
+COLOR_5="#7ED9B1"
+COLOR_6="#B2ED90"
+COLOR_7="#FDF57A"
 
-plot 'data.txt' using (1):1 title 'T1' linecolor rgb COLOR_2, \
-    '' using (2):2 title 'T2' linecolor rgb COLOR_3, \
-    '' using (3):3 title 'T3' linecolor rgb COLOR_4, \
+plot 'data.txt' using (1):1 title 'T1' linecolor rgb COLOR_1, \
+    '' using (2):2 title 'T2' linecolor rgb COLOR_2, \
+    '' using (3):3 title 'T3' linecolor rgb COLOR_3, \
+    '' using (4):4 title 'T4' linecolor rgb COLOR_4, \
+    '' using (5):5 title 'T5' linecolor rgb COLOR_5, \
+    '' using (6):6 title 'T6' linecolor rgb COLOR_6, \
+    '' using (7):7 title 'T7' linecolor rgb COLOR_7, \
+
+
+# Generate automatically the same figure in .png format 
+# 8in == 768px and 4in == 384px
+
+set terminal png notransparent size 768, 384
+set output "box-plot.png"
+
+replot
