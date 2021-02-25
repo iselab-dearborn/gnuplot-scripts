@@ -51,7 +51,6 @@ plot 'data.txt' using (1):1 title 'T1' linecolor rgb COLOR_1, \
     '' using (6):6 title 'T6' linecolor rgb COLOR_6, \
     '' using (7):7 title 'T7' linecolor rgb COLOR_7, \
 
-
 # Generate automatically the same figure in .png format 
 # 8in == 768px and 4in == 384px
 
