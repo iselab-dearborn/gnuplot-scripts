@@ -136,7 +136,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/more-chart-types/box-plot">
-            <img src="https://user-images.githubusercontent.com/114015/102024555-bd7a5d80-3d60-11eb-8f59-22a579b6301b.png"/>
+            <img src="https://iselab-dearborn.github.io/gnuplot-scripts/more-chart-types/box-plot/box-plot.png"/>
         </a>
     </kbd>
 </div>
