@@ -1,16 +1,31 @@
 set terminal pdfcairo enhanced dashed size 8, 4;
 set output "box-plot.pdf"
 
+# General Settings
+
 set title "Title"
+set datafile separator " "
+set grid
+unset border
+
+# Margins
+
+set lmargin 8
+set rmargin 2
+set tmargin 2
+set bmargin 2
+
+# Legend
+
+unset key
+
+# Chart Type
 
 set style fill solid 0.5 border -1
 set style boxplot outliers pointtype 7
 set style data boxplot
 set boxwidth  0.5
 set pointsize 0.5
-
-unset key
-set border 2
 
 set xtics scale 0.0
 set xtics ( \
@@ -23,17 +38,9 @@ set xtics ( \
     "Alg7" 7, \
 ) 
 
-set lmargin 8
-set rmargin 2
-set tmargin 2
-set bmargin 2
-
 set ylabel "Y Label"
 set ytics 0.1
 set yrange [0:1]
-
-set datafile separator " "
-set grid
 
 COLOR_1="#9E77A1"
 COLOR_2="#9A8FBB"
