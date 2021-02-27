@@ -1,4 +1,4 @@
-set terminal pdfcairo enhanced dashed size 8, 4;
+set terminal pdfcairo notransparent enhanced font "arial, 10" fontscale 1.0 size 8, 4;
 set output "box-plot.pdf"
 
 # General Settings
@@ -61,7 +61,7 @@ plot 'data.txt' using (1):1 title 'T1' linecolor rgb COLOR_1, \
 # Generate automatically the same figure in .png format 
 # 8in == 768px and 4in == 384px
 
-set terminal png notransparent size 768, 384
+set terminal pngcairo notransparent enhanced font "arial, 10" fontscale 1.0 size 768, 384
 set output "box-plot.png"
 
 replot
