@@ -20,7 +20,7 @@ jobs:
             filename="${file%.*}"
             echo $dir
             echo $filename
-            magick $file "$dir/$filename.png"
+            convert $file "$dir/$filename.png"
           done
        
       - name: Commit files # commit the output folder
