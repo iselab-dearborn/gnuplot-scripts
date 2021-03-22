@@ -23,7 +23,7 @@ jobs:
             echo $dir
             echo $filename
             echo $file "$filename.png"
-            convert -density 150 $file -quality 90 "$filename.png"
+            convert -density 300 $file -quality 100 "$filename.png"
           done
        
       - name: Commit files # commit the output folder
