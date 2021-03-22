@@ -21,6 +21,7 @@ jobs:
             filename="${file%.*}"
             echo $dir
             echo $filename
+            echo $file "$filename.png"
             convert $file "$filename.png"
           done
        
