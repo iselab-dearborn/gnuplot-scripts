@@ -2,6 +2,7 @@
 
 A comprehensive collection of Gnuplot examples
 
+[![PNG](https://github.com/iselab-dearborn/gnuplot-scripts/actions/workflows/png.yml/badge.svg)](https://github.com/iselab-dearborn/gnuplot-scripts/actions/workflows/png.yml)
 [![GitHub Release](https://img.shields.io/github/release/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts/releases/latest)
 [![GitHub contributors](https://img.shields.io/github/contributors/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts/graphs/contributors)
 [![GitHub stars](https://img.shields.io/github/stars/iselab-dearborn/gnuplot-scripts.svg)](https://github.com/iselab-dearborn/gnuplot-scripts)
