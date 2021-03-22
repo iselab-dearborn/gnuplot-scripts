@@ -23,15 +23,11 @@ jobs:
             echo $dir
             echo $filename
             echo $file "$filename.png"
-            convert $file "$filename.png"
+            convert -density 150 $file -quality 90 "$filename.png"
           done
        
       - name: Commit files # commit the output folder
         run: |
-          ls
-          for file in $(find -name '*.png'); do
-            echo $file
-          done
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git add . 
