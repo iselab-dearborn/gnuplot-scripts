@@ -49,7 +49,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/scatter-plot">
-            <img src="https://user-images.githubusercontent.com/114015/102025404-bace3700-3d65-11eb-9923-dfd516143817.png"/>
+            <img src="https://raw.githubusercontent.com/iselab-dearborn/gnuplot-scripts/main/scatter-and-bubble-charts/scatter-plot/scatter-plot.png"/>
         </a>
     </kbd>
 </div>
@@ -59,7 +59,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart">
-            <img src="https://iselab-dearborn.github.io/gnuplot-scripts/scatter-and-bubble-charts/bubble-chart/bubble-chart.png"/>
+            <img src="https://raw.githubusercontent.com/iselab-dearborn/gnuplot-scripts/main/scatter-and-bubble-charts/bubble-chart/bubble-chart.png"/>
         </a>
     </kbd>
 </div>
@@ -69,7 +69,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart-3d">
-            <img src="https://iselab-dearborn.github.io/gnuplot-scripts/scatter-and-bubble-charts/bubble-chart-3d/bubble-chart-3d.png"/>
+            <img src="https://raw.githubusercontent.com/iselab-dearborn/gnuplot-scripts/main/scatter-and-bubble-charts/bubble-chart-3d/bubble-chart-3d.png"/>
         </a>
     </kbd>
 </div>
@@ -164,3 +164,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <p float="left">
     <img src="https://user-images.githubusercontent.com/114015/77862143-99351b80-71e7-11ea-84b2-62038634f314.png" height="58px"/>
 </p>
+
