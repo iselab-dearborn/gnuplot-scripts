@@ -75,6 +75,16 @@ Click in the figures to go directly to the gnuplot script.
     </kbd>
 </div>
 
+#### Bubble Chart Text
+
+<div >
+    <kbd>
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart-text">
+            <img src="https://raw.githubusercontent.com/iselab-dearborn/gnuplot-scripts/main/scatter-and-bubble-charts/bubble-chart-text/bubble-chart-text.png"/>
+        </a>
+    </kbd>
+</div>
+
 ### Column and Bar Charts
 
 #### Basic Bar
