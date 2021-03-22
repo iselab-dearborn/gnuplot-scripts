@@ -10,6 +10,9 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+            uses: actions/checkout@v2
+            
       - name: Trigger GitHub pages rebuild
         run: |
           for file in $(find -name '*.pdf'); do
