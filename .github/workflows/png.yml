@@ -34,7 +34,7 @@ jobs:
           git config --local user.email "actions@github.com"
           git config --local user.name "Github Actions"
           git add . 
-          git commit -m "generating png"
+          git commit -m "generating .png files"
             
       - name: Push changes # push the output folder to your repo
         uses: ad-m/github-push-action@master
