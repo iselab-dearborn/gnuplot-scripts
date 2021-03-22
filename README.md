@@ -59,7 +59,7 @@ Click in the figures to go directly to the gnuplot script.
 <div >
     <kbd>
         <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/scatter-and-bubble-charts/bubble-chart">
-            <img src="https://user-images.githubusercontent.com/114015/102026526-5f537780-3d6c-11eb-9250-043e3c149dce.png"/>
+            <img src="https://iselab-dearborn.github.io/gnuplot-scripts/scatter-and-bubble-charts/bubble-chart/bubble-chart.png"/>
         </a>
     </kbd>
 </div>
