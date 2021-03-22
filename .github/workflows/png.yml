@@ -1,4 +1,4 @@
-name: PNG files
+name: PNG Files
 
 on:
   push:
