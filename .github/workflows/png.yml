@@ -1,4 +1,4 @@
-name: Generate .png files
+name: PNG files
 
 on:
   push:
