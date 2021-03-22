@@ -20,7 +20,7 @@ jobs:
             filename="${file%.*}"
             echo $dir
             echo $filename
-            convert $file "$dir/$filename.png"
+            convert $file "$filename.png"
           done
        
       - name: Commit files # commit the output folder

@@ -5,5 +5,5 @@ for file in $(find -name '*.pdf'); do
     filename="${file%.*}"
     echo $dir
     echo $filename
-    magick $file "$dir/$filename.png"
+    echo $file "$filename.png"
 done
