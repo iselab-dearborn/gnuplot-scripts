@@ -1,4 +1,4 @@
-name: Refresh GH Pages
+name: Generate .png files
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  refresh:
+  png-generator:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
