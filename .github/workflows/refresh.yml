@@ -8,14 +8,14 @@ on:
 
 jobs:
   refresh:
-    runs-on: ubuntu-16.04
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Trigger GitHub pages rebuild
         run: |
-          sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml \
+          sudo sed -i_bak 's/rights="none" pattern="PDF"/rights="read | write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml 
           for file in $(find -name '*.pdf'); do
             dir="${file%/*}"
             filename="${file%.*}"
