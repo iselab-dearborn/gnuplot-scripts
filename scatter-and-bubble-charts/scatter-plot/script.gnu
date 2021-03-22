@@ -27,6 +27,8 @@ set ytics 10
 
 set style line 1 lt rgb COLOR_1 lw 2
 set style line 2 lt rgb COLOR_3 lw 2
+set style line 3 lt rgb COLOR_5 lw 2
 
 plot 'data1.txt' using 1:2 with points linestyle 1 title 'T1', \
     'data2.txt' using 1:2 with points linestyle 2 title 'T2', \
+    'data3.txt' using 1:2 with points linestyle 3 title 'T3', \
