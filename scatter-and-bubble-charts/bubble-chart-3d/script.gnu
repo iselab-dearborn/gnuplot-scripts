@@ -4,7 +4,8 @@ set output "bubble-chart-3d.pdf"
 # General Settings
 
 set title "Title"
-
+set datafile separator " "
+set grid
 unset key
 
 # Margins
@@ -52,8 +53,6 @@ BUBBLE_SCALE = 0.05
 
 set xtics rotate by 0 offset 0,0
 
-set datafile separator " "
-set grid
 set tics scale 0
 
 set multiplot layout 1,1
