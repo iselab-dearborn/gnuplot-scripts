@@ -1,0 +1,6 @@
+group;Apple;Bacon;Cream;Donut;Eclair
+Row1;5;4;3;1;0
+Row2;2;2;0;0;1
+Row3;0;0;0;1;0
+Row4;0;0;0;2;3
+Row5;0;1;2;4;3
