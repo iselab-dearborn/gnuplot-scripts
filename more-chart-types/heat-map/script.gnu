@@ -9,14 +9,14 @@ set datafile separator ";"
 set grid
 # Margins
 
-set lmargin 0;
+set lmargin 7;
 set rmargin 0;
-set tmargin 0;
-set bmargin 0;
+set tmargin 0.5;
+set bmargin 2;
 
 # Legend
 
-set key top left
+# set key top left
 unset key
 
 # Default Colors
@@ -36,12 +36,12 @@ COLOR_7="#FDF57A"
 # Color runs from white to green
 # set palette rgbformula -7, 2, -7
 set palette defined (0 "white", 5 COLOR_1)
-# set cbrange [0:5]
+set cbrange [0:5]
 set cblabel "Score"
-set cbtics scale 1
+# set cbtics scale 1
 
-set xrange [-1:5]
-set yrange [-1:5]
+# set xrange [-1:5]
+# set yrange [-1:5]
 
-set view map
-splot "data.txt" matrix rowheaders columnheaders using 1:2:3 with image
+# set view map
+plot "data.txt" matrix rowheaders columnheaders using 1:2:3 with image
