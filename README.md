@@ -152,6 +152,15 @@ Click in the figures to go directly to the gnuplot script.
     </kbd>
 </div>
 
+#### Heat Map
+<div >
+    <kbd>
+        <a href="https://github.com/iselab-dearborn/gnuplot-scripts/tree/main/more-chart-types/heat-map">
+            <img src="https://raw.githubusercontent.com/iselab-dearborn/gnuplot-scripts/main/more-chart-types/heat-map/heat-map.png"/>
+        </a>
+    </kbd>
+</div>
+
 ## Questions or Suggestions
 
 Feel free to create <a href="https://github.com/iselab-dearborn/gnuplot-scripts/issues">issues</a> here as you need
